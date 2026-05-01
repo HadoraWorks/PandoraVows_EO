@@ -193,7 +193,7 @@ function App() {
       category: 'Indoor',
     },
     {
-      src: 'https://images.unsplash.com/photo-L-HKU9QpT7o?auto=format&fit=crop&w=900&q=80',
+      src: 'https://images.unsplash.com/photo-1769812343590-485512e27838?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Elegant wedding table setting',
       category: 'Indoor',
     },
@@ -487,6 +487,14 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <a
+        className="floating-cta"
+        href="https://wa.me/6281234567890"
+        aria-label="Chat via WhatsApp"
+      >
+        <span>WhatsApp</span>
+      </a>
 
       {activeImage && (
         <div
